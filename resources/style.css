@@ -27,6 +27,36 @@ nav {
 
 nav li {
   display: inline-block;
-  
+
 }
 /* Content */
+
+.column {
+  display: flex;
+
+}
+
+.column.large {
+  width: 630px;
+  display: flex;
+  border: thin solid black;
+  padding: 1px;
+
+}
+
+.column.large.headline1 {
+  border: 1px solid Black;
+}
+
+.column.medium {
+  width: 300px;
+  display: flex;
+  border: thin solid black;
+}
+
+.column.small {
+  width: 240px;
+  display: flex;
+  border: thin solid black;
+
+}
