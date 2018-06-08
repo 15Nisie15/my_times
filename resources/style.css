@@ -15,11 +15,6 @@ header #logo {
   color: MediumAquamarine;
 }
 
-img {
-  display: flex;
-
-}
-
 nav {
   display: flex;
 
@@ -34,6 +29,7 @@ nav li {
 .content {
   display: flex;
   border: thin solid Black;
+  align-content: space-between;
 
 }
 
@@ -42,27 +38,60 @@ nav li {
   display: flex;
   border: thin solid Black;
   flex-direction: column;
+  align-content: space-between;
 
 }
 
-.imagecont {
+.imagecont1 {
   display: flex;
   border: thin solid Black;
+  background-image: url("./images/img-story-main.png");
+  flex-grow: 2;
 
+}
+
+.imagecont2 {
+  display: flex;
+  border: thin solid Black;
+  background-image: url("./images/img-story-2.png");
+
+}
+
+.imagecont3 {
+  display: flex;
+  border: thin solid Black;
+  background-image: url("./images/img-story-3.png");
+}
+
+.imagecont4 {
+  display: flex;
+  border: thin solid Black;
+  background-image: url("./images/img-story-1.png");
 }
 
 .photoheadline1 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
 
 
 }
 
 .story {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
   border: thin solid Black;
 
 }
 
 .photoheadline2 {
-
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
 }
 
 .column.medium {
